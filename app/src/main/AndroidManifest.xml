@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tw.adouble.app.helloworld.mynetwork170813003">
 
+    <uses-permission android:name="android.permission.INTERNET" />//開啟INTERNET權限(只要任何跟網路有關全線均需要)
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
