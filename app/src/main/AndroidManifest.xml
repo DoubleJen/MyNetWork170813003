@@ -3,6 +3,9 @@
     package="tw.adouble.app.helloworld.mynetwork170813003">
 
     <uses-permission android:name="android.permission.INTERNET" />//開啟INTERNET權限(只要任何跟網路有關全線均需要)
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -18,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
